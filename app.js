@@ -18,6 +18,7 @@ app.configure(function(){
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.get('/',routes.index);
+  app.get('/users/:user',routes.user);
 });
 
 app.configure('development', function(){

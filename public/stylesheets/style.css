@@ -1,13 +1,149 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#search_input {
+	position:absolute;
+    top:10%;
+    left:2%;
+    width: 900px;
+    height: 450px;
+	text-shadow: 0px 0px 15px #000;
+	text-align: center;
+	}
+	
+#search_button{
+	height: 25px;
+	width: 45px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
-a {
-  color: red;
+#search_button:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
 }
 
-p {
-  color: red;
+#search{
+	position: absolute;
+	height: 25px;
+	width: 90px;
+	top: 90%;
+	left: 46%;
+	visibility: hidden;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
+
+#search:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+
+#input{
+	position: absolute;
+	top: 50%;
+	left: 37.5%;
+
+}
+
+
+
+#help_button{
+	position: absolute;
+	top:92%;
+	left: 43%;
+	height: 20px;
+	width: 70px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#help_button:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+
+#about_button{
+	position: absolute;
+	top:92%;
+	left: 53%;
+	height: 20px;
+	width: 70px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#about_button:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+
+#help_info{
+	visibility: hidden;
+	position: absolute;
+	top: 20%;
+	left:13%;
+}
+
+#about_info{
+	visibility: hidden;
+	position: absolute;
+	top: 20%;
+	left:20%;
+}
+
+#about_return{
+	position: absolute;
+	top:92%;
+	left: 53%;
+	height: 20px;
+	width: 70px;
+	visibility: hidden;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#about_return:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+
+#help_return{
+	position: absolute;
+	top:92%;
+	left: 43%;
+	height: 20px;
+	width: 70px;
+	visibility: hidden;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px #000;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#help_return:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+#about_head{
+	text-shadow: 0px 0px 1px #000;
+}
+
+#help_head{
+	text-shadow: 0px 0px 1px #000;
+}
+
 
