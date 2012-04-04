@@ -6,7 +6,8 @@
 var express = require('express')
   , routes = require('./routes');
 
-var app = module.exports = express.createServer();
+var app = module.exports = express.createServer()
+  ,io = require('socket.io').listen(app);
 
 // Configuration
 
@@ -18,7 +19,11 @@ app.configure(function(){
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.get('/',routes.index);
-  app.get('/users/:user',routes.user);
+  app.get('/words/:word',routes.word);
+  app.get('/',function(req,res){
+    res.sendfile(_dirname+'/index.html');
+  });
+  
 });
 
 app.configure('development', function(){
@@ -34,4 +39,5 @@ app.configure('production', function(){
 app.get('/', routes.index);
 
 app.listen(3000);
+
 console.log("Duper Super listening on port %d in %s mode", app.address().port, app.settings.env);
