@@ -1,7 +1,4 @@
-<br>
-    <br>
-    
-		<div id="logo"><img src="images/logo.jpg"/></div>
+<div id="logo"></div>
 		
 		
 		
@@ -12,7 +9,7 @@
 				<h1 id="title" class="hero-text">
 					<br>Results</br>
 				</h1>
-				
+				<img src="images/logo.jpg"/>
 				
 		<div id="search_input">
     		<input type="text" placeholder="Enter a search term" id="term" />
@@ -22,7 +19,7 @@
     	</div>				
 				
 					<div>
-					<ul id="list_results">
+					<ul>
 						<li>Result 1</li>
 						<li>Result 2</li>
 						<li>Result 3</li>
@@ -37,7 +34,8 @@
     				</div>
     				
     				
-
+ 							<div id="tweets">
+      						</div>
       					
       					
       				<div id = "help_info"> 
@@ -51,12 +49,14 @@
       					<br>
       					<br>
       					<p>About info will go here
-      					Project 3<br>
+      					Project 2<br>
       					Semmy Purewal<br>
       					CSCI 344<br>
       					</p>
       				</div>
-      				
+      				<div id="search_count_div">
+      					<p id="search_count"></p>
+      				</div>
       				
    
       	
@@ -64,8 +64,12 @@
 		</div>
 
 			<button id="help_return" > Return </button>
-			<button id="new_search" > New Search </button>
 			<button id="about_return" > Return </button>
 			<button id="help_button" > Help </button>
       		<button id="about_button" > About </button>
-
+      		
+    	<div id="swears">
+      			<p id="swear_count"></p> 
+      			<p id="tweet_count"></p>
+      	</div
+      	

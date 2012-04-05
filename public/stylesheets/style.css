@@ -1,12 +1,56 @@
 #search_input {
 	position:absolute;
-    top:10%;
-    left:2%;
+    top:50%;
+    left:6%;
     width: 900px;
     height: 450px;
 	text-shadow: 0px 0px 15px #000;
 	text-align: center;
 	}
+	
+
+#list_results {
+	visibility: hidden;
+	position:absolute;
+    top:40%;
+    left:3%;
+    width: 900px;
+    height: 450px;
+	text-align: center;
+	list-style-type: none;
+	}
+	
+	
+#logo {
+	position:absolute;
+    top:5%;
+    left:40%;
+    width: 900px;
+    height: 450px;
+	
+	}
+	
+	
+	
+#title {
+	visibility: hidden;
+	position:absolute;
+    top:10%;
+    left:5%;
+    width: 900px;
+    height: 450px;
+	text-align: center;
+	}
+	
+#results {
+	position:absolute;
+    top:28%;
+    left:8%;
+    width: 850px;
+    height: 450px;
+	text-align: center;
+	}
+
 	
 #search_button{
 	height: 25px;
@@ -23,12 +67,21 @@
 	
 }
 
-#search{
+
+
+#search:hover {
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+
+
+
+#new_search{
 	position: absolute;
-	height: 25px;
-	width: 90px;
-	top: 90%;
-	left: 46%;
+	top:100%;
+	left: 53%;
+	height: 20px;
+	width: 80px;
 	visibility: hidden;
 	border-radius: 12px;
 	box-shadow: 0px 0px 0px #000;
@@ -37,24 +90,18 @@
 	transition: all 0.2s linear;
 }
 
-#search:hover {
+#new_search:hover {
 	box-shadow: 0px 0px 15px #fff;
 	
 }
 
-#input{
-	position: absolute;
-	top: 50%;
-	left: 37.5%;
-
-}
 
 
 
 #help_button{
 	position: absolute;
-	top:92%;
-	left: 43%;
+	top:120%;
+	left: 48%;
 	height: 20px;
 	width: 70px;
 	border-radius: 12px;
@@ -71,8 +118,8 @@
 
 #about_button{
 	position: absolute;
-	top:92%;
-	left: 53%;
+	top:120%;
+	left: 58%;
 	height: 20px;
 	width: 70px;
 	border-radius: 12px;
@@ -103,8 +150,8 @@
 
 #about_return{
 	position: absolute;
-	top:92%;
-	left: 53%;
+	top:120%;
+	left: 48%;
 	height: 20px;
 	width: 70px;
 	visibility: hidden;
@@ -122,8 +169,8 @@
 
 #help_return{
 	position: absolute;
-	top:92%;
-	left: 43%;
+	top:120%;
+	left: 58%;
 	height: 20px;
 	width: 70px;
 	visibility: hidden;

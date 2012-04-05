@@ -40,7 +40,7 @@ t.stream(
             //if awesome is in the tweet text, increment the counter
             if(tweet.entities && tweet.entities.urls.length > 0){
 	        console.log(tweet.entities.urls[0].expanded_url);
-
+		//client.rpush(searchPattern+,tweet.entities.urls[0].expanded_url);
 	    }
 	                                                                                                                                                                            
          //    if(tweet.text.match("/"+searchPattern+"/")) {

@@ -12,7 +12,6 @@
 
     <!--- program --->
     <script src="javascripts/src/twitter.js"></script>
-    <script src="./javascripts/src/script.js"></script>
 
     <head>
     <body>
