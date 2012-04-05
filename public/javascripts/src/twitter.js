@@ -36,11 +36,18 @@ t.stream(
     { track: [searchPattern] },
     function(stream) {
         stream.on('data', function(tweet) {
-            console.log(tweet.text);
-            //if awesome is in the tweet text, increment the counter                                                                                                                                                                        
-            if(tweet.text.match("/"+searchPattern+"/")) {
-                client.incr(searchPattern);
-            }
+            //console.log(tweet.entities.urls);
+            //if awesome is in the tweet text, increment the counter
+            if(tweet.entities && tweet.entities.urls.length > 0){
+	        console.log(tweet.entities.urls[0].expanded_url);
+
+	    }
+	                                                                                                                                                                            
+         //    if(tweet.text.match("/"+searchPattern+"/")) {
+         //       client.incr(searchPattern);
+          //  }
+
+	   
         });
     }
 );
