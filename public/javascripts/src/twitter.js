@@ -42,7 +42,7 @@ t.stream(
 	        
 		if(tweet.entities.urls[0].expanded_url!=null){
 		    console.log(tweet.entities.urls[0].expanded_url);
-	            client.rpush(searchPattern,String(tweet.entities.urls[0].expanded_url));
+	            //client.rpush(searchPattern,String(tweet.entities.urls[0].expanded_url));
 	        }
 	     }
 	                                                                                                                                                                            
